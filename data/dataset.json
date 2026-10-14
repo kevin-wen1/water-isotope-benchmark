@@ -1,0 +1,77 @@
+{
+  "repository": "https://github.com/kevin-wen1/water-isotope-benchmark",
+  "manuscript_snapshot": "2026-10-14",
+  "reference": "Gaussian 16 A.03; wb97xd/6-31+G(d,p); freq nosymm",
+  "geometry_optimized": false,
+  "counts": {
+    "train": 3000,
+    "validation": 1000,
+    "primary_test": 1000,
+    "external_test": 100
+  },
+  "hydrogen_bond_split": {
+    "train": [
+      0,
+      1,
+      2
+    ],
+    "validation": [
+      3
+    ],
+    "primary_test": [
+      4
+    ]
+  },
+  "external_parent_frames": 48,
+  "isotope_patterns": [
+    "HH",
+    "DH",
+    "DD"
+  ],
+  "target_hydrogen_always_protiated": true,
+  "mass_amu": {
+    "H": 1.00782503223,
+    "D": 2.01410177812,
+    "O": 15.99491461957
+  },
+  "reference_arrays_bundled": 5100,
+  "reference_arrays_expected": 5100,
+  "reference_array_paths": {
+    "train": "train/{geometry_id}.npz",
+    "validation": "validation/{geometry_id}.npz",
+    "primary_test": "primary_test/{geometry_id}.npz",
+    "external_test": "external_test/{geometry_id}.npz"
+  },
+  "reference_array_bytes_by_split": {
+    "train": 53576542,
+    "validation": 17015825,
+    "primary_test": 16507419,
+    "external_test": 2358583
+  },
+  "isotope_reference_labels": {
+    "protocol": "fixed_geometry_curvature_v2_20260923",
+    "frequency_and_participation_file": "isotope_reference.csv",
+    "shift_file": "isotope_shifts.csv",
+    "coverage": {
+      "primary_test": {
+        "geometries": 1000,
+        "frequency_rows": 6000,
+        "participation_rows": 6000,
+        "shift_rows": 4000
+      },
+      "external_test": {
+        "geometries": 100,
+        "frequency_rows": 600,
+        "participation_rows": 600,
+        "shift_rows": 400
+      }
+    },
+    "missing_participation": null,
+    "target_selection": "maximum raw Cartesian-normalized O-H participation among positive-curvature modes",
+    "shift_definition": "independently selected endpoint target frequency: DH-HH and DD-DH",
+    "training_validation_isotope_labels_included": false
+  },
+  "complete_dataset_bundled": true,
+  "primary_source": "single VASP AIMD trajectory",
+  "external_source": "separate MACE-driven MD trajectory"
+}

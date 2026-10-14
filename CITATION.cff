@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this benchmark."
+title: "Paired-Isotopologue Hessian Benchmarking for Second-Order Validation of Machine-Learned Water Potentials"
+type: dataset
+version: 0.1.0
+url: "https://github.com/kevin-wen1/water-isotope-benchmark"
+authors:
+  - family-names: Wen
+    given-names: Yihao
+  - family-names: Wen
+    given-names: Xue
+  - family-names: Ni
+    given-names: Baoxin
+  - family-names: Zhao
+    given-names: Wenxin
+  - family-names: Li
+    given-names: Sida
+  - family-names: Qu
+    given-names: Wanglin
+  - family-names: Wang
+    given-names: Zi
+  - family-names: Li
+    given-names: Yuqiang
+  - family-names: Wei
+    given-names: Hao

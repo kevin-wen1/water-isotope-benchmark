@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.npz binary
+models/nep.txt binary
