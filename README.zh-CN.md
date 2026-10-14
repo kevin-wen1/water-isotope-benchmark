@@ -40,6 +40,6 @@ with np.load("data/primary_test/4-HB-745.npz", allow_pickle=False) as ref:
 
 ## 模型
 
-已包含作者正式发布的 [NEP 权重](models/nep.txt)：**NEP4、ANN 60 0、6/4 Å 截断**。其余公开模型提供与论文对应的版本和官方获取地址，见 [模型说明](models/README.md) 和 [registry.json](models/registry.json)。本次不提供 adapted DPA4 各 seed 的权重。
+仓库仅记录与论文对应的模型名称、版本和官方获取地址，见 [模型说明](models/README.md) 和 [registry.json](models/registry.json)，不存放第三方模型权重。NEP-MB-pol 指作者正式发布的 **NEP4、ANN 60 0、6/4 Å 截断**模型。本次不提供 adapted DPA4 各 seed 的权重。
 
-仓库不包含模型预测、误差汇总或论文结果图。引用信息见 [CITATION.cff](CITATION.cff)。第三方 NEP 权重保留原作者的 CC BY 4.0 许可和署名；本项目原创数据及读取脚本的再使用许可尚未指定。
+仓库不包含模型预测、误差汇总或论文结果图。引用信息见 [CITATION.cff](CITATION.cff)。本项目原创数据及读取脚本的再使用许可尚未指定；第三方模型按各自官方来源的许可获取。

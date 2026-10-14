@@ -42,10 +42,10 @@ Split IDs are in `data/splits/`; external parent-frame information is in `data/e
 
 ## Models
 
-The included [NEP weight file](models/nep.txt) is the author's published **NEP4 ANN 60 0 model with 6/4 Å cutoffs**. [models/README.md](models/README.md) and [registry.json](models/registry.json) record the manuscript's model versions, official sources and NEP attribution. Other pretrained weights can be obtained from their linked upstream sources. Adapted DPA4 seed checkpoints are outside this release's scope.
+[models/README.md](models/README.md) and [registry.json](models/registry.json) identify the manuscript's model versions and official sources. NEP-MB-pol refers to the author's published **NEP4 ANN 60 0 model with 6/4 Å cutoffs**. Model weights are obtained from the linked upstream releases and are not bundled here. Adapted DPA4 seed checkpoints are outside this release's scope.
 
 This repository contains reference data, model information and a data reader. Model predictions, error summaries and manuscript figures are not included.
 
 ## Citation and licensing
 
-Citation metadata are provided in [CITATION.cff](CITATION.cff). The unchanged third-party NEP checkpoint is distributed under its upstream [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/); attribution is in [models/README.md](models/README.md). A reuse license for the original benchmark dataset and helper code has not yet been specified.
+Citation metadata are provided in [CITATION.cff](CITATION.cff). A reuse license for the original benchmark dataset and helper code has not yet been specified. Obtain third-party models under the terms of their respective upstream releases.
